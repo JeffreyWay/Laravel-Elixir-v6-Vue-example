@@ -14,5 +14,5 @@ require('laravel-elixir-vue');
  */
 
 elixir(function(mix) {
-    mix.scripts('main.js');
+    mix.webpack('main.js');
 });
